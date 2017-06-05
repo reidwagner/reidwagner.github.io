@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Gentium+Basic);
+
+body { 
+    color: #333333;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    -o-transition:.1s;
+    -ms-transition:.1s;
+    -moz-transition:.1s;
+    -webkit-transition:.1s;
+    transition:.1s;
+}
+
+a:hover {
+    color: grey;
+}
+
+.icon {
+    font-size: 20px;
+}
+
+ul {
+    list-style: none;
+    margin: 5px;
+}
+
+ul#header-links li {
+    font-family: 'Gentium Basic',serif;
+    display:inline;
+    padding: 4px;
+}
+
+ul#header-info li {
+    font-family: 'Gentium Basic',serif;
+    display:inline;
+    padding: 6px;
+}
+
+div#job-title {
+    font-family: 'Gentium Basic',serif;
+}
+
+div#topbar {
+    height: 100px;
+    overflow: hidden;
+    display:inline;
+    font-size: 18px;
+}
+
+div#heading {
+    font-size: 18px;
+    font-weight: normal;
+    font-family: 'Open Sans',serif;
+    vertical-align: middle;
+}
+
+div#body-column {
+    width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    font-family: 'Gentium Basic',serif;
+}
+
+div.info-section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+div.info-title {
+    font-size: 25px;
+}
