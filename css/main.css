@@ -52,9 +52,9 @@ div#topbar {
 }
 
 div#heading {
+    font-family: 'Gentium Basic',serif;
     font-size: 18px;
     font-weight: normal;
-    font-family: 'Open Sans',serif;
     vertical-align: middle;
 }
 
