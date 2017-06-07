@@ -99,7 +99,7 @@
         I've been able to explore and compile code into established and educational kernel code-bases like Linux, and xv6, a Unix V6 clone for x86 written at MIT.
         </p>
         <p><span class="project-title">Linker:</span>
-        To me, linking felt like a less-covered part of computer programming that I needed a stronger understanding of. So I started this project to explore the internals of elf files for myself. It exists now as a subset of readelf, processing an elf file. Once this portion of the project is complete I'll be able to read utilize elf sections in linking code. Some example code - I used unions to succinctly copy file contents into representative structs  :
+        To me, linking felt like a less-covered part of computer programming that I needed a stronger understanding of. So I started this project to explore the internals of linking. It exists now as a subset of readelf, processing an elf file. Once this portion of the project is complete I'll be able to read utilize elf sections in linking code. Some example code - I used unions to succinctly copy file contents into representative structs  :
         <pre><code class="c">
   union symbol_u {
       uint8_t byte_arr[sizeof(struct symbol)];
