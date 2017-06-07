@@ -121,7 +121,7 @@
         </code></pre>
         </p>
         <p><span class="project-title">Qubit:</span>
-        I actually wrote this project around the time I was studying for the Physics GRE. It explores representing <a href="https://en.wikipedia.org/wiki/Qubit">quantum qubit</a> operations in Haskell. Implementing a tensor product:
+        I actually wrote this project around the time I was studying for the Physics GRE. It explores representing <a href="https://en.wikipedia.org/wiki/Qubit">qubit</a> operations in Haskell. Implementing a tensor product:
         <pre><code class="haskell">
   tensor :: State -> State -> State
   tensor k0 k1 = transpose [[(*)] <*> concat k0 <*> concat k1]
